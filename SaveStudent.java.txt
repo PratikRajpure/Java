@@ -1,0 +1,16 @@
+package com.student.managementSystem;
+
+public class SaveStudent {
+	public static void main(String[] args) {
+		
+	
+
+	Student si = new Student(3, "CCC", "AUC", 257);
+	
+    StudentManagement.saveStudent(si);
+    StudentManagement.updateStudent(7, "DEE");
+    StudentManagement.saveStudent(4);
+	StudentManagement.saveStudent(3);
+	StudentManagement.getTopperStudent();
+	}
+}
